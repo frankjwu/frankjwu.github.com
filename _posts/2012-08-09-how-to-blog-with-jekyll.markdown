@@ -124,7 +124,7 @@ markdown: rdiscount
 pygments: true
 {% endhighlight %}
 
-If you want to use a custom domain, you have to create a CNAME file and put the desired domain name inside it. You will then need to add an A record that points to 207.97.227.245 in your DNS settings. 
+If you want to use a custom domain, you have to create a CNAME file and put the desired domain name inside it. You will then need to add an A record that points to 204.232.175.78 in your DNS settings. 
 
 At this point, you have already created the basic skeleton of your site and simple configuration settings. Jekyll is up and running and all you need now is to start designing the site layout with HTML (infused with [Liquid](http://liquidmarkup.org/)) and CSS. Even if you're a talented designer, it's a good idea to fork an existing Jekyll blog to see how they work. You might want to start with forking [Tom Preston-Werner's blog](http://github.com/mojombo/mojombo.github.com) or even [mine](http://github.com/frankjwu/frankjwu.github.com) to get an idea of what to do next.
 
