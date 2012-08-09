@@ -1,0 +1,170 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #F0F8FF;
+  font: 13.34px helvetica, arial, clean, sans-serif;
+  *font-size: small;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+}
+
+h1 {
+  margin-bottom: 1em;
+}
+
+p {
+  margin: 1em 0;
+}
+
+a {
+  color: #0066cc;
+}
+
+a:hover {
+  color: black;
+}
+
+a:visited {
+  color: color:#0066cc;
+}
+
+table {
+  font-size: inherit;
+  font: 100%;
+}
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+
+.site {
+  font-size: 120%;
+  text-align: justify;
+  width: 40em;
+  margin: 3em auto 2em auto;
+  line-height: 1.5em;
+}
+
+.title {
+  color: black;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+	font-size: 130%;
+}
+
+	.title a {
+		color: black;
+	}
+
+.site .header {
+	margin-bottom: 1em;
+	font-size: 145%;
+	height: 30px;
+	overflow: hidden;
+}
+
+	.site .header .site-title {
+		float: left;
+	}
+  	.site .site-title a {
+	    color: #0066cc;
+			font-weight: bold;
+			margin-bottom: 2em;
+	    text-decoration: none;
+	  }
+
+	  .site .site-title a:hover {
+	    color: black;
+	  }
+
+	.site .header .navlist {
+		float: right;
+	}
+
+		.site .header .navlist li {
+			display: inline;
+			text-align: right;
+		}
+
+		.site .header .navlist a {
+			color: #aaa;
+			text-decoration: none;
+			margin-left: 1em;
+		}
+
+		.site .header .navlist a.hover {
+			color: black;
+		}
+
+.site .meta {
+	color: #aaa;
+}
+
+.site .meta .copy {
+	color: #aaa;
+}
+	
+	.site .meta .copy a {
+		color: #aaa;
+	}
+
+.site .footer {
+  font-size: 80%;
+  color: #666;
+  border-top: 2px solid #666;
+  margin-top: 2em;
+  overflow: hidden;
+}
+
+	.site .footer .follow {
+		float: left;
+		margin-right: 3em;
+	}
+
+		.site .footer .follow a {
+	    color: #666;
+	  }
+	
+	.site .footer .email {
+		float: right;
+	}
+	
+		.site .footer .email a {
+			color: #666;
+		}
+		
+.site .more a {
+	font-weight: bold;
+}
+
+/*****************************************************************************/
+/*
+/* Content
+/*
+/*****************************************************************************/
+
+.content {
+  margin-bottom: 1em; }
+	.content .dateline {
+		color: #777;
+	}
