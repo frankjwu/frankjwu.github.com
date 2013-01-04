@@ -9,8 +9,8 @@ layout: nil
     <atom:link href="http://frankjwu.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>Musings from a college kid determined to change the world.</description>
     <language>en-us</language>
-    <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-    <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
+    <pubDate>{{ site.time | date: "%A, %d %B %Y" }}</pubDate>
+    <lastBuildDate>{{ site.time | date: "%A, %d %B %Y" }}</lastBuildDate>
 
     {% for post in site.posts %}
     <item>
