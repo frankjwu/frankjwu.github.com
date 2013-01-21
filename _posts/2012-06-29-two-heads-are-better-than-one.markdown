@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Two Heads are Better than One
-hn: http://news.ycombinator.com/item?id=4178708
 ---
 
 It's an age-old adage taught all over the world to foster a sense of collaboration and teamwork -- one that took a hit in the journal _Science_ in August of 2010.
