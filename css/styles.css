@@ -19,7 +19,6 @@ body {
 	color: #282828;
   font: 18px Georgia, Helvetica Neue, Helvetica, arial, clean, sans-serif;
   line-height: 1.8em;
-  *font-size: small;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -43,7 +42,7 @@ a:hover {
 }
 
 a:visited {
-  color: color:#3498db;
+  color: #3498db;
 }
 
 table {

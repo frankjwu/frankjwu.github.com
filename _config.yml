@@ -2,4 +2,3 @@ markdown: rdiscount
 pygments: true
 permalink: /posts/:title
 production_url: http://frankjwu.com
-auto: true
