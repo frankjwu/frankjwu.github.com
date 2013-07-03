@@ -4,9 +4,4 @@ It is automatically transformed by [Jekyll](http://github.com/mojombo/jekyll) in
 
 # License
 
-The following directories and their contents are Copyright Frank Wu. You may not reuse anything therein without my permission:
-
-* _posts/
-* images/
-
-All other directories and files are MIT Licensed. Feel free to use the HTML and CSS as you please. If you do use them, a link back to http://frankjwu.com would be appreciated, but is not required.
+If you'd like to reuse or republish one of my posts (anything in the _posts/ directory), please ask me first. Everything else is MIT Licensed. Feel free to use the HTML and CSS for your own blog, although I would really appreciate a link back to http://frankjwu.com. Thanks!
