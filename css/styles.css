@@ -16,10 +16,10 @@ html, body {
 }
 
 body {
-  background-color: #F0F8FF;
-  font: 13.34px helvetica, arial, clean, sans-serif;
+	color: #282828;
+  font: 18px Georgia, Helvetica Neue, Helvetica, arial, clean, sans-serif;
+  line-height: 1.8em;
   *font-size: small;
-  text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -35,15 +35,15 @@ p {
 }
 
 a {
-  color: #0066cc;
+  color: #3498db;
 }
 
 a:hover {
-  color: black;
+  color: #282828;
 }
 
 a:visited {
-  color: color:#0066cc;
+  color: color:#3498db;
 }
 
 table {
@@ -57,78 +57,101 @@ table {
 /*
 /*****************************************************************************/
 
-.site {
-  font-size: 120%;
-  text-align: justify;
-  width: 45em;
-  margin: 3em auto 2em auto;
-  line-height: 1.5em;
+.container {
+  width: 700px;
+  margin: 0 auto;
 }
 
 .title {
-  color: black;
+	font-family: 'Tauri', sans-serif;
+  color: #282828;
   font-weight: bold;
   margin-bottom: 0.5em;
 	font-size: 130%;
 }
 
 	.title a {
-		color: black;
+		color: #282828;
+		text-decoration: none;
 	}
 
-.site .header {
-	margin-bottom: 1em;
-	font-size: 145%;
-	height: 30px;
+.header {
+	font-family: 'Tauri', sans-serif;
+	height: 170px;
+	background-color: #3498db;
+	color: #fff;
 	overflow: hidden;
+	margin-bottom: 30px;
 }
 
-	.site .header .site-title {
+	.header .site-title {
+		font-size: 40px;
+		padding-top: 45px;
 		float: left;
 	}
-  	.site .site-title a {
-	    color: #0066cc;
+  	.header .site-title a {
+  		color: #fff;
 			font-weight: bold;
 			margin-bottom: 2em;
 	    text-decoration: none;
 	  }
-
-	  .site .site-title a:hover {
-	    color: black;
+	  .header .site-title a:hover {
+	  	background-color: #282828;
+	  	color: #fff;
 	  }
+	.header .menu {
+		padding-top: 10px;
+		float: left;
+	}
+		.header .menu li {
+			text-transform: uppercase;
+			display: inline;
+			padding-right: 20px;
+		}
+		.header .menu a {
+			font-weight: normal;
+			color: #fff;
+			font-size: 20px;
+			text-decoration: none;
+		}
+	.header .pic {
+		margin-top: 30px;
+		border-radius: 50%;
+		height: 100px;
+		width: 100px;
+		float: right;
+		display: inline;
+		background: url("/images/me.jpeg") no-repeat 0 0;
+	}
 
-	.site .header .navlist {
+.container .listing li {
+	line-height: 1.5em;
+	list-style-type: none;
+	font-size: 18px;
+	padding-bottom: 15px;
+}
+	.container .listing a {
+		text-decoration: none;
+	}
+	.container .listing span {
+		padding-left: 15px;
+		font-size: 13px;
 		float: right;
 	}
 
-		.site .header .navlist li {
-			display: inline;
-			text-align: right;
-		}
-
-		.site .header .navlist a {
-			color: #aaa;
-			text-decoration: none;
-			margin-left: 1em;
-		}
-
-		.site .header .navlist a.hover {
-			color: black;
-		}
-
-.site .meta {
+.container .meta {
 	color: #aaa;
 }
 
-.site .meta .copy {
+.container .meta .copy {
 	color: #aaa;
 }
 	
-	.site .meta .copy a {
+	.container .meta .copy a {
 		color: #aaa;
 	}
 
-.site .footer {
+.container .footer {
   font-size: 80%;
   color: #666;
   border-top: 2px solid #666;
@@ -136,24 +159,24 @@ table {
   overflow: hidden;
 }
 
-	.site .footer .follow {
+	.container .footer .follow {
 		float: left;
 		margin-right: 3em;
 	}
 
-		.site .footer .follow a {
+		.container .footer .follow a {
 	    color: #666;
 	  }
 	
-	.site .footer .email {
+	.container .footer .email {
 		float: right;
 	}
 	
-		.site .footer .email a {
+		.container .footer .email a {
 			color: #666;
 		}
 		
-.site .more a {
+.container .more a {
 	font-weight: bold;
 }
 

@@ -11,22 +11,25 @@
 	<meta name="description" content="Musings from a college kid determined to change the world." />
   <link rel="stylesheet" href="/css/styles.css" />
 	<link rel="stylesheet" href="/css/syntax.css" />
+	<link href='http://fonts.googleapis.com/css?family=Tauri' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	<div class="site">
-		<div class="header">
+	<div class="header">
+		<div class="container">
+			<div class="pic">
+			</div>
 			<div class="site-title">
 				<a href="/">Frank Wu</a>
-			</div>
-			<div class="navlist">
-				<li><a class="extra" href="/">home</a></li>
-				<li><a class="extra" href="/archive/">archive</a></li>
-				<li><a class="extra" href="/about/">about</a></li>
-				<li><a class="extra" href="/projects/">projects</a></li>
-				<li><a class="extra" href="http://feeds.feedburner.com/frankjwu">rss</a></li>
+				<ul class="menu">
+					<li><a href="/">home</a></li>
+					<li><a href="/about/">about</a></li>
+					<li><a href="/projects/">projects</a></li>
+					<li><a href="http://feeds.feedburner.com/frankjwu">rss</a></li>
+				</ul>
 			</div>
 		</div>
-
+	</div>
+	<div class="container">
 	  {{ content }}
 
 		<div class="footer">
