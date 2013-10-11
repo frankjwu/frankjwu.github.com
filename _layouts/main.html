@@ -11,11 +11,14 @@
 	<meta name="description" content="Dreamer, entrepreneur, and life-long learner. Currently studying at Yale and building a better world one line of code at a time." />
 	<link rel="stylesheet" href="/css/styles.css" />
 	<link rel="stylesheet" href="/css/syntax.css" />
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	{% if page.path contains '_posts' %}<script type="text/javascript" src="/js/main.js"></script>{% endif %}
 	<link rel="alternate" type="application/rss+xml" title="Frank Wu" href="http://frankjwu.com/rss.xml">
 	<link href='http://fonts.googleapis.com/css?family=Tauri' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<div class="header">
+		{% if page.path contains '_posts' %}<div class="statusbar"></div>{% endif %}
 		<div class="container">
 			<div class="pic">
 			</div>

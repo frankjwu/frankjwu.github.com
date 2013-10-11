@@ -7,47 +7,47 @@
 /* Global Reset */
 
 * {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 html, body {
-  height: 100%;
+	height: 100%;
 }
 
 body {
 	color: #282828;
-  font: 18px Georgia, Helvetica Neue, Helvetica, arial, clean, sans-serif;
-  line-height: 1.8em;
+	font: 18px Georgia, Helvetica Neue, Helvetica, arial, clean, sans-serif;
+	line-height: 1.8em;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%;
+	font-size: 100%;
 }
 
 h1 {
-  margin-bottom: 1em;
+	margin-bottom: 1em;
 }
 
 p {
-  margin: 1em 0;
+	margin: 1em 0;
 }
 
 a {
-  color: #34495e;
-}
-
-a:hover {
-  color: #282828;
+	color: #34495e;
 }
 
 a:visited {
-  color: #34495e;
+	color: #34495e;
+}
+
+a:hover {
+	color: #eb5e29;
 }
 
 table {
-  font-size: inherit;
-  font: 100%;
+	font-size: inherit;
+	font: 100%;
 }
 
 /*****************************************************************************/
@@ -57,15 +57,15 @@ table {
 /*****************************************************************************/
 
 .container {
-  width: 700px;
-  margin: 0 auto;
+	width: 700px;
+	margin: 0 auto;
 }
 
 .title {
 	font-family: 'Tauri', sans-serif;
-  color: #282828;
-  font-weight: bold;
-  margin-bottom: 0.5em;
+	color: #282828;
+	font-weight: bold;
+	margin-bottom: 0.5em;
 	font-size: 130%;
 }
 
@@ -74,30 +74,32 @@ table {
 		text-decoration: none;
 	}
 
+.statusbar {
+	top: 0;
+	position: fixed;
+	background-color: #eb5e29;
+	height: 2px;
+}
+
 .header {
 	font-family: 'Tauri', sans-serif;
 	height: 170px;
 	background-color: #34495e;
-	color: #fff;
+	color: #aec7d1;
 	overflow: hidden;
 	margin-bottom: 30px;
 }
-
 	.header .site-title {
 		font-size: 40px;
 		padding-top: 45px;
 		float: left;
 	}
-  	.header .site-title a {
-  		color: #fff;
-			font-weight: bold;
-			margin-bottom: 2em;
-	    text-decoration: none;
-	  }
-	  .header .site-title a:hover {
-	  	background-color: #282828;
-	  	color: #fff;
-	  }
+	.header .site-title a {
+		color: #fff;
+		font-weight: bold;
+		margin-bottom: 2em;
+		text-decoration: none;
+	}
 	.header .menu {
 		padding-top: 10px;
 		float: left;
@@ -109,9 +111,12 @@ table {
 		}
 		.header .menu a {
 			font-weight: normal;
-			color: #fff;
+			color: #aec7d1;
 			font-size: 20px;
 			text-decoration: none;
+		}
+		.header .menu a:hover {
+			color: #eb5e29;
 		}
 	.header .pic {
 		margin-top: 30px;
@@ -151,11 +156,11 @@ table {
 	}
 
 .container .footer {
-  font-size: 80%;
-  color: #666;
-  border-top: 2px solid #666;
-  margin-top: 2em;
-  overflow: hidden;
+	font-size: 80%;
+	color: #666;
+	border-top: 2px solid #666;
+	margin-top: 2em;
+	overflow: hidden;
 }
 
 	.container .footer .follow {
@@ -164,8 +169,8 @@ table {
 	}
 
 		.container .footer .follow a {
-	    color: #666;
-	  }
+			color: #666;
+		}
 	
 	.container .footer .email {
 		float: right;
@@ -186,7 +191,8 @@ table {
 /*****************************************************************************/
 
 .content {
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+}
 	.content .dateline {
 		color: #777;
 	}
