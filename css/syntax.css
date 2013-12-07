@@ -1,4 +1,12 @@
 .highlight  { background: #ffffff; }
+.highlight pre {
+	font-size: 15px;
+	line-height: 1.3em;
+	background-color: #eef;
+	overflow: scroll;
+	padding: 0.8em;
+	border: 1px solid #ddd;
+}
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .k { font-weight: bold } /* Keyword */
