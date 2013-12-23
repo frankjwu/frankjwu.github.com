@@ -1,4 +1,6 @@
 markdown: rdiscount
 pygments: true
 permalink: /posts/:title
+paginate: 5
+paginate_path: "/page/:num"
 production_url: http://frankjwu.com

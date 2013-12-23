@@ -17,7 +17,7 @@ html, body {
 
 body {
 	color: #282828;
-	font: 18px Georgia, Helvetica Neue, Helvetica, arial, clean, sans-serif;
+	font: 16px Georgia, Helvetica Neue, Helvetica, arial, clean, sans-serif;
 	line-height: 1.8em;
 }
 
@@ -38,15 +38,16 @@ p {
 }
 
 a {
-	color: #34495e;
+	color: #D74B4B;
+	text-decoration: none;
 }
 
 a:visited {
-	color: #34495e;
+	color: #D74B4B;
 }
 
 a:hover {
-	color: #eb5e29;
+	color: #34495e;
 }
 
 table {
@@ -61,13 +62,59 @@ table {
 /*****************************************************************************/
 
 .container {
-	width: 700px;
+	width: 900px;
 	margin: 0 auto;
+	overflow: hidden;
+	padding-bottom: 30px;
+}
+
+.main {
+	float: left;
+	width: 600px;
+}
+
+.sidebar {
+	float: right;
+	padding-left: 50px;
+	width: 250px;
+	font-size: 12px;
+}
+	.sidebar .pic {
+		border-radius: 50%;
+		height: 80px;
+		width: 80px;
+		float: right;
+		display: inline;
+		background: url("/images/me.jpeg") no-repeat 0 0;
+		background-size: 80px;
+		margin: 0 5px 0 0;
+	}
+
+	.sidebar hr.separator {
+		height: 1px;
+		color: #aec7d1;
+		background-color: #aec7d1;
+		border: none;
+		margin: 10px 0;
+	}
+
+	#side {
+		margin: 20px 0 10px 0;
+		font-size: 14px;
+	}
+
+	a#side {
+		color: #282828;
+	}
+
+
+.clear {
+	clear: both;
 }
 
 .title {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 26px;
+	font-size: 22px;
 	color: #282828;
 	font-weight: 400;
 	margin-bottom: 0.5em;
@@ -87,15 +134,16 @@ table {
 
 .header {
 	font-family: 'Tauri', sans-serif;
-	height: 170px;
+	height: 150px;
 	background-color: #34495e;
 	color: #aec7d1;
 	overflow: hidden;
 	margin-bottom: 33px;
+	box-shadow: 0 2px 10px rgba(35,35,55,0.2);
 }
 	.header .site-title {
 		font-size: 40px;
-		padding-top: 45px;
+		padding-top: 40px;
 		float: left;
 	}
 	.header .site-title a {
@@ -120,17 +168,8 @@ table {
 			text-decoration: none;
 		}
 		.header .menu a:hover {
-			color: #eb5e29;
+			color: #D74B4B;
 		}
-	.header .pic {
-		margin-top: 30px;
-		border-radius: 50%;
-		height: 100px;
-		width: 100px;
-		float: right;
-		display: inline;
-		background: url("/images/me.jpeg") no-repeat 0 0;
-	}
 
 .container .listing, .menu {
 	padding: 0;
@@ -143,6 +182,7 @@ table {
 	padding-bottom: 15px;
 }
 	.container .listing a {
+		color: #282828;
 		text-decoration: none;
 	}
 	.container .listing span {
@@ -163,28 +203,29 @@ table {
 		color: #aaa;
 	}
 
-.container .footer {
+.footer {
+	width: 900px;
+	margin: 0 auto;
 	font-size: 14px;
 	color: #666;
 	border-top: 2px solid #666;
-	margin-top: 2em;
 	overflow: hidden;
 }
 
-	.container .footer .follow {
+	.footer .follow {
 		float: left;
 		margin-right: 3em;
 	}
 
-		.container .footer .follow a {
+		.footer .follow a {
 			color: #666;
 		}
 	
-	.container .footer .email {
+	.footer .email {
 		float: right;
 	}
 	
-		.container .footer .email a {
+		.footer .email a {
 			color: #666;
 		}
 		
@@ -196,7 +237,7 @@ table {
 	display: block;
 	margin: 0 auto;
 	padding: 1.0em;
-	max-width: 600px;
+	max-width: 550px;
 	height: auto !important;
 }
 
@@ -206,11 +247,47 @@ table {
 /*
 /*****************************************************************************/
 
-.content {
-	margin-bottom: 1em;
+.pagination {
+	display: block;
+	height: 35px;
+	margin-top: -30px;
+	padding-top: 30px;
 }
-	.content .dateline {
-		line-height: 1.0em;
-		font-size: 17px;
-		color: #777;
+	.pagination a {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 20px;
+		text-transform: uppercase;
+		text-decoration: none;
 	}
+	.pagination a:hover {
+		color: #34495e;
+	}
+	.pagination .previous {
+		width: 50%;
+		float: left;
+		text-align: left;
+	}
+	.pagination .next {
+		width: 50%;
+		float: right;
+		text-align: right;
+	}
+
+.content .dateline {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.0em;
+	font-size: 14px;
+	color: #777;
+	margin-bottom: 25px;
+}
+.content hr.separator {
+	height: 2px;
+	color: #aec7d1;
+	background-color: #aec7d1;
+	border: none;
+	margin: 40px 0;
+}
+
+#disqus_thread {
+	padding-bottom: 20px;
+}

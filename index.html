@@ -3,29 +3,28 @@ layout: main
 title: Frank Wu
 ---
 
-<div class="title">Recent Posts</div>
-<ul class="listing">
-	{% for post in site.posts %}
-	<li class>
-		<span>{{ post.date | date: "%B %e, %Y" }}</span>
-		<a href="{{ post.url }}">{{ post.title }}</a>
-	</li>
-	{% endfor %}
-</ul><br />
+{% for post in paginator.posts %}
+<section class="content">
+	<div class="title"><a href="{{ post.url }}">{{ post.title }}</a></div>
+	<section class="dateline">{{ post.date | date: "%B %e, %Y" }}</section>
+	{{ post.content }}
+	<hr class="separator" />
+</section>
+{% endfor %}
 
-
-<div class="title">Links of Interest</div>
-<ul class="listing">
-	<li>
-		<span>April 7, 2013</span>
-		<a href="http://techcrunch.com/2013/04/07/students-tackle-road-trips-online-distraction-and-more-at-hackprinceton/">TechCrunch - SeeMail app at HackPrinceton</a>
-	</li>
-	<li>
-		<span>November 18, 2012</span>
-		<a href="http://www.nhregister.com/articles/2012/11/18/life/doc50a7b7b7ee202549893158.txt">New Haven Register - "Yale students roll up sleeves to lend a hand with Sandy relief"</a>
-	</li>
-	<li>
-		<span>August 8, 2011</span>
-		<a href="http://theweek.com/article/index/218074/watch-the-throne-is-kanye-west-and-jay-zs-new-album-worth-the-hype">The Week - "Best Opinion:  NY Post, Lost in the Sound, MTV"</a>
-	</li>
-</ul>
+<div class="pagination">
+	{% if paginator.previous_page %}
+		{% if paginator.previous_page == 1 %}
+			<span class="previous"><a href="/">← Older</a></span>
+		{% else %}
+			<span class="previous"><a href="/page/{{ paginator.previous_page }}">← Older</a></span>
+		{% endif %}
+	{% else %}
+		<span class="previous"></span>
+	{% endif %}
+	{% if paginator.next_page %}
+		<span class="next"><a href="/page/{{ paginator.next_page }}">Newer →</a></span>
+	{% else %}
+		<span class="next"></span>
+	{% endif %}
+</div>

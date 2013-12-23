@@ -21,34 +21,47 @@
 	<div class="header">
 		{% if page.path contains '_posts' %}<div class="statusbar"></div>{% endif %}
 		<div class="container">
-			<div class="pic">
-			</div>
 			<div class="site-title">
 				<a href="/">Frank Wu</a><br />
 				<ul class="menu">
 					<li><a href="/">home</a></li>
 					<li><a href="/about/">about</a></li>
 					<li><a href="/projects/">projects</a></li>
-					<li><a href="http://feeds.feedburner.com/frankjwu">rss</a></li>
+					<li><a href="/archive/">archive</a></li>
 				</ul>
 			</div>
 		</div>
 	</div>
 	<div class="container">
-	  {{ content }}
+		<div class="main">
+			{{ content }}
+		</div>
+		<div class="sidebar">
+			<p><div class="pic"></div>
+			I'm a sophomore at Yale University with big dreams and big ideas. <a href="/about/">Read more about me here.</a></p>
 
-		<div class="footer">
-			<div class="follow">
-				<p>
-	         <a href="http://twitter.com/frankjwu/">Twitter</a> / <a href="http://facebook.com/frankjwu/">Facebook</a> / <a href="http://github.com/frankjwu/">GitHub</a>
-				</p>
-			</div>
-			<div class="email">
-				<p>
-					Drop me a line: <a href="mailto:me@frankjwu.com">me@frankjwu.com</a>
-				</p>
-			</div>
-	  </div>
+			<p>You can find me on Twitter at <a href="http://twitter.com/frankjwu">@frankjwu</a>. You can also send me an <a href="mailto:me@frankjwu.com">email</a>.</p>
+
+			<h2 id="side">Recent Posts</h2>
+			{% for post in site.posts offset: 0 limit: 5 %}
+			<a id="side" href="{{ post.url }}">{{ post.title }}</a>
+			<hr class="separator" />
+			{% endfor %}
+			<b><a id="side" href="/archive/">More posts</a></b>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="footer">
+		<div class="follow">
+		<p>
+			<a href="http://twitter.com/frankjwu/">Twitter</a> / <a href="http://facebook.com/frankjwu/">Facebook</a> / <a href="http://github.com/frankjwu/">GitHub</a>
+		</p>
+		</div>
+		<div class="email">
+			<p>
+				Drop me a line: <a href="mailto:me@frankjwu.com">me@frankjwu.com</a>
+			</p>
+		</div>
 	</div>
 
 <!-- Google Analytics -->
