@@ -30,7 +30,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	margin-bottom: 1em;
+	font-size: 22px;
+}
+
+h2 {
+	font-size: 18px;
 }
 
 p {
@@ -114,7 +118,7 @@ table {
 
 .title {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 22px;
+	font-size: 24px;
 	color: #282828;
 	font-weight: 400;
 	margin-bottom: 0.5em;
@@ -233,14 +237,6 @@ table {
 	font-weight: bold;
 }
 
-.container img {
-	display: block;
-	margin: 0 auto;
-	padding: 1.0em;
-	max-width: 550px;
-	height: auto !important;
-}
-
 /*****************************************************************************/
 /*
 /* Content
@@ -290,4 +286,37 @@ table {
 
 #disqus_thread {
 	padding-bottom: 20px;
+}
+
+/*****************************************************************************/
+/*
+/* Markdown Related
+/*
+/*****************************************************************************/
+
+.container img {
+	display: block;
+	margin: 0 auto;
+	padding: 1.0em;
+	max-width: 520px;
+	height: auto !important;
+}
+
+blockquote {
+	color: #34495e;
+	line-height: 1.5;
+	font-size: 26px;
+	margin: 1.5em 0 1.5em;
+	padding: 0 1em 0 2.5em;
+	position: relative;
+}
+
+blockquote:before {
+	color: #34495e;
+	content: "\201C";
+	font-size: 4em;
+	position: absolute;
+	left: 5px;
+	top: 0.3em;
+	line-height: 0.1em;
 }
