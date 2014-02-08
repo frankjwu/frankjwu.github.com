@@ -7,10 +7,10 @@ When I was a child, I remember being paranoid of standing in public showers at t
 
 In the back of my mind, I always told myself that I was being irrational and that everyone else stood normally in the shower, but for the longest time, I remained completely stubborn about this behavior. But with time, as with most of our childhood quirks, I eventually grew out of it.
 
-A few days ago, I stepped into a hotel shower and instinctively, I didn't take off the flip flops that were already on my feet. At college, we're strongly encouraged to wear them in the communal showers. Which leads me to the point -- why didn't I just do this when I was kid?
+A few days ago, I stepped into a hotel shower and instinctively, I didn't take off the flip flops that were already on my feet. At college, we're strongly encouraged to wear them in the communal showers. Which leads me to the point — why didn't I just do this when I was kid?
 
 Simple: no one ever told me to.
 
-I think this story, though quite idiosyncratic, sums up the reason why we are always driven to learn new things and gain new experiences. We don't know what we don't know. And what we *do* know can constantly surprise us -- even something so seemingly inconsequential as learning to wear my flip flops in the shower.
+I think this story, though quite idiosyncratic, sums up the reason why we are always driven to learn new things and gain new experiences. We don't know what we don't know. And what we *do* know can constantly surprise us — even something so seemingly inconsequential as learning to wear my flip flops in the shower.
 
 What is your "standing in showers" story?
