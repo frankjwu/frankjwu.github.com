@@ -19,6 +19,7 @@ body {
 	color: #282828;
 	font: 16px Georgia, Helvetica Neue, Helvetica, arial, clean, sans-serif;
 	line-height: 1.8em;
+	-webkit-font-smoothing: antialiased;
 }
 
 ul, ol {
