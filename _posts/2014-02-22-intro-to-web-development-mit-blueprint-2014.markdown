@@ -3,7 +3,7 @@ layout: post
 title: Intro to Web Development (MIT Blueprint 2014)
 ---
 
-<p><center><iframe src="http://www.slideshare.net/slideshow/embed_code/31516328" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></center></p>
+<p><script async class="speakerdeck-embed" data-id="4f2ea6207e2b013188082eaa35b483aa" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script></p>
 
 # HTML (index.html) #
 <p>
