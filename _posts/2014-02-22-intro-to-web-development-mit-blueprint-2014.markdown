@@ -3,6 +3,10 @@ layout: post
 title: Intro to Web Development (MIT Blueprint 2014)
 ---
 
+I recently led a workshop on basic HTML and CSS at Google Cambridge for MIT's [Blueprint](http://blueprint.hackmit.org/), a 14-hour event for high school students interested in software development and computer science. My talk assumes __no prior knowledge__ and walks you through a simple HTML and CSS website, teaching fundamentals like the box model, classes vs. ids, and more.
+
+# Slides
+
 <p><script async class="speakerdeck-embed" data-id="4f2ea6207e2b013188082eaa35b483aa" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script></p>
 
 # HTML (index.html) #
