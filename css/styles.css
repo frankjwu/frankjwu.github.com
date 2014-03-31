@@ -321,3 +321,9 @@ blockquote:before {
 	top: 0.3em;
 	line-height: 0.1em;
 }
+
+.footnotes {
+	margin-top: 40px;
+	border-top: 2px dashed #aec7d1;
+	padding: 0 10px;
+}
