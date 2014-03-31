@@ -323,6 +323,7 @@ blockquote:before {
 }
 
 .footnotes {
+	margin-top: 50px;
 	border-top: 2px dashed #aec7d1;
 	padding: 0 10px;
 }
