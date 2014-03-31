@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Thoughts on Virtual Reality and the Oculus Rift - How real is too real?
+title: Virtual Reality and the Oculus Rift - How real is too real?
 ---
 
 ![Oculus Rift](/images/oculus.jpg)
