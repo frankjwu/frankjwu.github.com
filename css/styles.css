@@ -92,7 +92,7 @@ table {
 		width: 80px;
 		float: right;
 		display: inline;
-		background: url("/images/me.jpeg") no-repeat 0 0;
+		background: url("/images/me.png") no-repeat 0 0;
 		background-size: 80px;
 		margin: 0 5px 0 0;
 	}
@@ -181,8 +181,7 @@ table {
 	padding: 0;
 }
 .container .listing li {
-	font-family: 'Lato', sans-serif;
-	font-size: 17px;
+	font-size: 16px;
 	line-height: 1.5em;
 	list-style-type: none;
 	padding-bottom: 15px;
