@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Don't sting like a bee
+title: Don't Sting Like a Bee
 ---
 
 ![A honey bee landing on a flower](/images/bee.jpg)

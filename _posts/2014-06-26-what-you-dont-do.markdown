@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What you don't do
+title: What You Don't Do
 ---
 
 !["Two roads diverge in a yellow wood..."](/images/two-roads.jpg)
