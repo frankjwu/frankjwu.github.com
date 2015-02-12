@@ -159,10 +159,10 @@ $ ruby -rubygems -e 'require "jekyll/migrators/tumblr";
 	Jekyll::Tumblr.process("http://www.your_blog_url.com", true)'
 {% endhighlight %}
 
-The above steps creates a new directory for your imported posts, installs the necessary gems for the migrators to work, and then does the actual migration directly from your old blog. After migrating, you might want to clean up the markup in your old posts, especially if you didn't use Markdown before.
+The above steps will create a new directory for your imported posts, install the necessary gems for the migrators to work, and then perform the actual data migration from your old blog. After migrating, you might want to clean up the markup in your old posts, especially if you didn't use Markdown before.
 
 ## Thoughts
 
-Obviously, Jekyll isn't for everyone since it requires a bit of familiarity with terminal, Git, and Liquid markup, but I'm extremely satisfied with the entire system. I love being able to open my text editor to write posts and then previewing everything on my local server before pushing the changes to a GitHub repository. Pages load quickly since they're just static HTML files and I feel at ease making incremental changes to the live site.
+Obviously, Jekyll isn't for everyone since it requires a bit of familiarity with the terminal, Git, and Liquid markup, but I'm extremely satisfied with the entire system. I love being able to open my text editor to write posts and then previewing everything on my local server before pushing the changes to a GitHub repository. Pages load quickly since they're just static HTML files and I feel at ease making incremental changes to the live site.
 
 If you're still not sure, I'd recommend reading Tom Preston-Werner's ["Blogging Like a Hacker"](http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html) and Paul Stamatiou's extremely detailed tutorial, ["How To: Wordpress to Jekyll"](http://paulstamatiou.com/how-to-wordpress-to-jekyll), for some additional inspiration and thoughts.
