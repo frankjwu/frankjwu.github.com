@@ -96,12 +96,12 @@ We'll go ahead and create a simple default.html layout to get started.
 <!DOCTYPE html>
 <html>
 <head>
-	<title>{{ "{{ page.title "}}}}</title>		
+	<title>{{ "{{ page.title "}}}}</title>    
 	<!-- You can load CSS files and other meta data -->
 </head>
 <body>
 	<h1>Welcome!</h1>
-	  {{ "{{ content "}}}}
+	{{ "{{ content "}}}}
 </body>
 </html>
 {% endhighlight %}
