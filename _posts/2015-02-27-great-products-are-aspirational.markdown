@@ -38,6 +38,11 @@ To go from good to great, products have to connect with people who don't necessa
 * Utility product: lightweight, mountable camera
 * Aspirational product: attracts people who want to live an extreme lifestyle
 
+**Product Hunt**
+
+* Utility product: a place to launch your product and receive community feedback
+* Aspirational product: attracts a community of people who want to become creators and makers
+
 So the product is 1) instantly useful to the people who need it and is 2) able to attract people who *want* to need it. Over time, many of these aspirational users may become utility users, allowing the product to continue to grow and expand its active user base. Aspirational Stripe users will build businesses that process so many transactions that they need the API to operate. By using their Moleskines more, non-writers will become writers (or at the very least, will consume more Moleskines as they attempt to write).
 
 One could perhaps argue that superb branding creates this utilitarian-aspiration split, but I disagree. Building a product that has this sort of behavior will naturally lead to better branding, not the other way around, although I'm sure there are exceptions where better branding leads to aspirational desires.
