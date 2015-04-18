@@ -21,7 +21,7 @@ This is me running on [single threaded processing](http://en.wikipedia.org/wiki/
 
 But that's just so dangerous, even if it only happens rarely: being so insular and so single-threaded makes you lose perspective on the world. The people I love are so much more important to me than schoolwork, my health is so much more important to me than my pride, and solving big, meaningful problems is so much more important to me than solving the problem of picking where to go for lunch.
 
-I hope I'm never so single-threaded, so single-minded, and so insular in my thoughts that I forget about the bigger picture and everything else that's important to me. I hope that I'll force myself out of these self-imposed bubbles and take in all the little details around me.
+I hope I'm never so single-threaded, so single-minded, and so insular in my thoughts that I forget about the bigger picture and everything else that's important to me. I need to force myself out of these self-imposed bubbles and take in all the little details around me.
 
 Because frankly, I'm ashamed.
 
