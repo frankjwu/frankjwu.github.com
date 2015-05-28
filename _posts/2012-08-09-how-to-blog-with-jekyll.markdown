@@ -36,18 +36,18 @@ Your local dev environment is now completely setup to run Jekyll. To get your si
 $ mkdir frankjwu.github.com
 $ cd frankjwu.github.com
 {% endhighlight %}
-			
+      
 For the sake of seeing progress, you can create a new index.html file in your new directory and fill it with the following.
 
 {% highlight html %}
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Frank Wu</title>
+  <title>Frank Wu</title>
 </head>
 
 <body>
-	<h1>Hello World!</h1>
+  <h1>Hello World!</h1>
 </body>
 </html>
 {% endhighlight %}
@@ -96,12 +96,12 @@ We'll go ahead and create a simple default.html layout to get started.
 <!DOCTYPE html>
 <html>
 <head>
-	<title>{{ "{{ page.title "}}}}</title>    
-	<!-- You can load CSS files and other meta data -->
+  <title>{{ "{{ page.title "}}}}</title>    
+  <!-- You can load CSS files and other meta data -->
 </head>
 <body>
-	<h1>Welcome!</h1>
-	{{ "{{ content "}}}}
+  <h1>Welcome!</h1>
+  {{ "{{ content "}}}}
 </body>
 </html>
 {% endhighlight %}
@@ -156,7 +156,7 @@ $ mkdir _import
 $ gem install sequel mysqlplus
 $ gem install nokigiri
 $ ruby -rubygems -e 'require "jekyll/migrators/tumblr";
-	Jekyll::Tumblr.process("http://www.your_blog_url.com", true)'
+  Jekyll::Tumblr.process("http://www.your_blog_url.com", true)'
 {% endhighlight %}
 
 The above steps will create a new directory for your imported posts, install the necessary gems for the migrators to work, and then perform the actual data migration from your old blog. After migrating, you might want to clean up the markup in your old posts, especially if you didn't use Markdown before.

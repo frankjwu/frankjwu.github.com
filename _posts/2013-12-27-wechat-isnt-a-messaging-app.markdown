@@ -22,7 +22,7 @@ The reason why WeChat is doing so well, though, is because its other features ar
 
 But it isn't just text messaging that is helping to drive WeChat's user retention. I was pretty surprised by how popular the walkie talkie (push-to-talk) feature is for communication, which I believe stems from how difficult it is to enter Chinese characters on a phone. It's not uncommon to see people walking down the street or on the subway, speaking in quick 2 to 3 second bursts on their WeChat accounts. Instead of calling one another, a lot of Chinese people choose to use these walkie talkie conversations, giving them the benefits of asynchronous communication coupled with the power of voice. I'm also suspecting that more and more people are starting to substitute their phone service with WeChat's walkie talkie feature as well, making an average Chinese user's phone plan pretty heavily focused on 3G data.
 
-# So... what? #
+## So... what?
 
 WeChat has grown so quickly because of its versatility and all-encompassing nature. I'd guess that the _only_ app a lot of people in China use is, in fact, WeChat. My cousins and my family agree. Tencent would probably agree as well.
 

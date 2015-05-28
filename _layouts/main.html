@@ -9,6 +9,7 @@
 		{% endif %}</title>
 	<meta name="author" content="Frank Wu" />
 	<meta name="description" content="Dreamer, entrepreneur, and life-long learner. Currently studying at Yale and building a better world one line of code at a time." />
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
 	<link rel="stylesheet" href="/css/styles.css" />
 	<link rel="stylesheet" href="/css/syntax.css" />
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -19,15 +20,16 @@
 <body>
 	<div class="header">
 		{% if page.path contains '_posts' %}<div class="statusbar"></div>{% endif %}
-		<div class="container">
-			<div class="site-title">
-				<a href="/">Frank Wu</a><br />
+		<div class="header_inner">
+			<div class="container">
+				<a class="site_title" href="/">Frank Wu</a>
 				<ul class="menu">
 					<li><a href="/">home</a></li>
 					<li><a href="/about/">about</a></li>
 					<li><a href="/projects/">projects</a></li>
 					<li><a href="/archive/">archive</a></li>
 				</ul>
+				<div style="clear: both"></div>
 			</div>
 		</div>
 	</div>
@@ -35,32 +37,9 @@
 		<div class="main">
 			{{ content }}
 		</div>
-		<div class="sidebar">
-			<p><div class="pic"></div>
-			I'm a junior at Yale University with big dreams and big ideas. <a href="/about/">Read more about me here.</a></p>
-
-			<p>You can find me on Twitter at <a href="http://twitter.com/frankjwu">@frankjwu</a>. You can also send me an <a href="mailto:me@frankjwu.com">email</a>.</p>
-
-			<h2 id="side">Recent Posts</h2>
-			{% for post in site.posts offset: 0 limit: 5 %}
-			<a id="side" href="{{ post.url }}">{{ post.title }}</a>
-			<hr class="separator" />
-			{% endfor %}
-			<b><a id="side" href="/archive/">More posts</a></b>
-		</div>
-		<div class="clear"></div>
 	</div>
 	<div class="footer">
-		<div class="follow">
-		<p>
-			<a href="http://twitter.com/frankjwu/">Twitter</a> / <a href="http://facebook.com/frankjwu/">Facebook</a> / <a href="http://github.com/frankjwu/">GitHub</a>
-		</p>
-		</div>
-		<div class="email">
-			<p>
-				Drop me a line: <a href="mailto:me@frankjwu.com">me@frankjwu.com</a>
-			</p>
-		</div>
+		<p>© 2015 Frank Wu</p>
 	</div>
 
 <!-- Google Analytics -->
