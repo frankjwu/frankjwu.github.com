@@ -42,7 +42,7 @@ There are, unfortunately, some limitations to what we can do with this data. The
 
 But empirically, at least, it appears that most early age biases at Yale have been erased or never existed in the first place. [^1]
 
-Could it be that Yale admissions officers are familiar with the relative age effect and consciously adjust for this in their admissions process? This is possible, but probably unlikely and is difficult to test for.
+Could it be that Yale admissions officers are familiar with the relative age effect and consciously adjust for this in their admissions process? This is possible, but probably unlikely.
 
 Here's another possibility: as mentioned earlier, 19% of Yale students are listed as international students. What if, out of this 19%, almost every student that attended school in the Southern hemisphere was born in the months of March and April, balancing out a presumably lower amount of students in the Northern hemisphere that were also born in those months? If true, this could have created the local maximum that we see in March and April. And while relying purely on geography is an imperfect filter for determining when school starts, it should at least give us a working estimate to play with.
 
