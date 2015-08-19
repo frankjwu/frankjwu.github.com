@@ -20,5 +20,3 @@ Obviously, it's hard to explain such complicated things (like your startup) so c
 When you spend all day solving big problems and thinking about the underlying innovation of your product, it's easy to forget that people outside of your tiny bubble can't and won't understand what you're talking about at all. You need to remember to take a step back, wipe the slate clean, and look at things with a beginner's mind. Build for the "Calvins" of your customer base — the people who want your product and would wholeheartedly support you if only they could understand what you're doing.
 
 So start small and focus on the basics. Figure out your lowest common denominator. Simplify.
-
-_Find this post [on Medium here.](https://medium.com/what-i-learned-today/91724c09040e) You should also follow me [on Twitter!](https://twitter.com/frankjwu)_
