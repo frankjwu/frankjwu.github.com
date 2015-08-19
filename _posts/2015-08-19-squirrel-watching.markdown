@@ -5,7 +5,7 @@ title: Squirrel Watching
 
 ![A squirrel perched on a branch](/images/squirrel.jpg)
 
-*The following short story recently went viral in China. I've translated it into English, taking some artistic freedom in the process. You can read it in Chinese [here](http://wx.shenchuang.com/article/2015-08-02/1127589.html) (original author is unknown).*
+*The following short story recently went viral in China. I've translated it into English, taking some artistic liberties in the process. You can read it in Chinese [here](http://wx.shenchuang.com/article/2015-08-02/1127589.html) (original author is unknown).*
 
 It's a warm summer afternoon and a mother and her son are sitting side by side in the backyard. The son, at home from college, is buried in a book. The mother's attention is fixed on the twin oak trees facing them, shading them from the sun's unforgiving beams.
 
