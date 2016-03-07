@@ -1,59 +1,58 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<title>{% if page.title == "Frank Wu" %}
-		{{ page.title }}
-		{% else %}
-		{{ page.title }} | Frank Wu
-		{% endif %}</title>
-	<meta name="author" content="Frank Wu" />
-	<meta name="description" content="Dreamer, entrepreneur, and life-long learner. Currently studying at Yale and building a better world one line of code at a time." />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-	<link rel="stylesheet" href="/css/styles.css" />
-	<link rel="stylesheet" href="/css/syntax.css" />
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	{% if page.path contains '_posts' %}<script type="text/javascript" src="/js/main.js"></script>{% endif %}
-	<link rel="alternate" type="application/rss+xml" title="Frank Wu" href="http://frankjwu.com/rss.xml">
-	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>{% if page.title == "Frank Wu" %}
+    {{ page.title }}
+    {% else %}
+    {{ page.title }} | Frank Wu
+    {% endif %}</title>
+  <meta name="author" content="Frank Wu" />
+  <meta name="description" content="Dreamer, entrepreneur, and life-long learner. Currently studying at Yale and building a better world one line of code at a time." />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="stylesheet" href="/css/syntax.css" />
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  {% if page.path contains '_posts' %}<script type="text/javascript" src="/js/main.js"></script>{% endif %}
+  <link rel="alternate" type="application/rss+xml" title="Frank Wu" href="http://frankjwu.com/rss.xml">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	<div class="header">
-		{% if page.path contains '_posts' %}<div class="statusbar"></div>{% endif %}
-		<div class="header_inner">
-			<div class="container">
-				<a class="site_title" href="/">Frank Wu</a>
-				<ul class="menu">
-					<li><a href="/">home</a></li>
-					<li><a href="/about/">about</a></li>
-					<li><a href="/projects/">projects</a></li>
-					<li><a href="/archive/">archive</a></li>
-				</ul>
-				<div style="clear: both"></div>
-			</div>
-		</div>
-	</div>
-	<div class="container">
-		<div class="main">
-			{{ content }}
-		</div>
-	</div>
-	<div class="footer">
-		<p>© 2015 Frank Wu</p>
-	</div>
+  <div class="header">
+    {% if page.path contains '_posts' %}<div class="statusbar"></div>{% endif %}
+    <div class="header_inner">
+      <div class="container">
+        <a class="site_title" href="/">Frank Wu</a>
+        <ul class="menu">
+          <li><a href="/">home</a></li>
+          <li><a href="/about/">about</a></li>
+          <li><a href="/projects/">projects</a></li>
+          <li><a href="/archive/">archive</a></li>
+        </ul>
+        <div style="clear: both"></div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="main">
+      {{ content }}
+    </div>
+  </div>
+  <div class="footer">
+    <p>© 2016 Frank Wu</p>
+  </div>
 
 <!-- Google Analytics -->
 <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32892906-1']);
+  _gaq.push(['_trackPageview']);
 
-	  var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', 'UA-32892906-1']);
-	  _gaq.push(['_trackPageview']);
-
-	  (function() {
-	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	  })();
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
 </script>
 <!-- Google Analytics end -->
 
