@@ -1,6 +1,7 @@
 markdown: kramdown
-highlighter: rouge
-permalink: /posts/:title
+highlighter: pygments
+permalink: /posts/:title/
 paginate: 5
 paginate_path: "/page/:num"
 production_url: http://frankjwu.com
+gems: [jekyll-paginate, pygments]
