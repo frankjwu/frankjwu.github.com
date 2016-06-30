@@ -17,7 +17,8 @@ html, body {
 
 body {
 	color: #282a2e;
-	font: 16px Georgia, Cambria, "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-family: 'PT Serif', Georgia, Cambria, 'Times New Roman', Times, serif;
 	line-height: 1.8em;
 	-webkit-font-smoothing: antialiased;
 }
@@ -33,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 1.4em;
+	font-size: 1.6em;
 }
 
 h2 {
@@ -78,7 +79,7 @@ table {
 }
 
 	.main a {
-		border-bottom: 3px solid #8abeb7;
+		border-bottom: 2px solid #8abeb7;
 	}
 
 	.main a:hover {
