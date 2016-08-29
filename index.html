@@ -15,15 +15,15 @@ title: Frank Wu
 <div class="pagination">
 	{% if paginator.previous_page %}
 		{% if paginator.previous_page == 1 %}
-			<span class="previous"><a href="/">← Older</a></span>
+			<span class="previous"><a href="/">← Newer</a></span>
 		{% else %}
-			<span class="previous"><a href="/page/{{ paginator.previous_page }}">← Older</a></span>
+			<span class="previous"><a href="/page/{{ paginator.previous_page }}">← Newer</a></span>
 		{% endif %}
 	{% else %}
 		<span class="previous"></span>
 	{% endif %}
 	{% if paginator.next_page %}
-		<span class="next"><a href="/page/{{ paginator.next_page }}">Newer →</a></span>
+		<span class="next"><a href="/page/{{ paginator.next_page }}">Older →</a></span>
 	{% else %}
 		<span class="next"></span>
 	{% endif %}
