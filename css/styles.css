@@ -74,7 +74,8 @@ table {
 }
 
 .main {
-	margin: 0 auto 30px auto;
+	margin: 0 auto;
+	padding-bottom: 60px;
 	width: 600px;
 }
 
@@ -142,6 +143,7 @@ table {
 		color: #e0e0e0;
 		font-size: 1.1em;
 		text-decoration: none;
+		text-transform: lowercase;
 	}
 
 	.header .header_inner .menu a:hover {
@@ -203,7 +205,6 @@ img#about {
 	.pagination a {
 		font-family: 'Lato', sans-serif;
 		font-size: 1.4em;
-		text-transform: uppercase;
 	}
 
 	.pagination a:hover {
@@ -236,11 +237,6 @@ img#about {
 	background-color: #e0e0e0;
 	border: none;
 	margin: 40px 0;
-}
-
-.footer p {
-	color: #e0e0e0;
-	text-align: center;
 }
 
 /*****************************************************************************/

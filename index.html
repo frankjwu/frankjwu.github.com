@@ -3,28 +3,12 @@ layout: main
 title: Frank Wu
 ---
 
-{% for post in paginator.posts %}
-<section class="content">
-	<h1 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
-	<section class="dateline">{{ post.date | date: "%B %e, %Y" }}</section>
-	{{ post.content }}
-	<hr class="separator" />
-</section>
-{% endfor %}
+<h1 class="title">Hi! Nice to meet you.</h1>
 
-<div class="pagination">
-	{% if paginator.previous_page %}
-		{% if paginator.previous_page == 1 %}
-			<span class="previous"><a href="/">← Newer</a></span>
-		{% else %}
-			<span class="previous"><a href="/page/{{ paginator.previous_page }}">← Newer</a></span>
-		{% endif %}
-	{% else %}
-		<span class="previous"></span>
-	{% endif %}
-	{% if paginator.next_page %}
-		<span class="next"><a href="/page/{{ paginator.next_page }}">Older →</a></span>
-	{% else %}
-		<span class="next"></span>
-	{% endif %}
-</div>
+<p><img id="about" src="/images/Frank Wu.png" alt="Frank Wu">I'm Frank Wu. These days, I'm building <a href="https://tarohealth.com">Taro Health</a> in NYC. We're on a mission to bring affordable, high-quality healthcare to more Americans.</p>
+
+<p>Previously, I was the first employee of <a href="https://www.formation.bio">Formation Bio</a>, where we built a pharma company from the ground up. I also worked on the early team of <a href="https://www.joinhoney.com/">Honey</a> as an engineer.</p>
+
+<p>Before that, I studied at Yale, where I discovered a passion for technology. I co-founded <a href="http://yhack.org/">YHack</a>, Yale's annual 1000 student hackathon, and was part of the team that introduced Harvard's <a href="https://cs50.yale.edu/">CS50</a> course to Yale, which quickly became the school's most popular class.
+
+<p>If you're working on something cool, <b>I'd love to meet you!</b> Shoot me an email at <a href="mailto:me@frankjwu.com">me@frankjwu.com</a> or find me on Twitter at <a href="http://twitter.com/frankjwu">@frankjwu</a>.</p>

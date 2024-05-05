@@ -2,6 +2,6 @@ markdown: kramdown
 highlighter: rouge
 permalink: /posts/:title/
 paginate: 5
-paginate_path: "/page/:num"
+paginate_path: "/blog/:num"
 production_url: http://frankjwu.com
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
