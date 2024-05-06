@@ -7,7 +7,6 @@ layout: null
     <title>Frank Wu | frankjwu.com</title>
     <link>http://frankjwu.com/</link>
     <atom:link href="http://frankjwu.com/rss.xml" rel="self" type="application/rss+xml" />
-    <description>Musings from a college kid determined to change the world.</description>
     <language>en-us</language>
     <pubDate>{{ site.time | date: "%A, %d %B %Y" }}</pubDate>
     <lastBuildDate>{{ site.time | date: "%A, %d %B %Y" }}</lastBuildDate>
