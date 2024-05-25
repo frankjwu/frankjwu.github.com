@@ -5,8 +5,8 @@ layout: null
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Frank Wu | frankjwu.com</title>
-    <link>http://frankjwu.com/</link>
-    <atom:link href="http://frankjwu.com/rss.xml" rel="self" type="application/rss+xml" />
+    <link>https://frankjwu.com/</link>
+    <atom:link href="https://frankjwu.com/rss.xml" rel="self" type="application/rss+xml" />
     <language>en-us</language>
     <pubDate>{{ site.time | date: "%A, %d %B %Y" }}</pubDate>
     <lastBuildDate>{{ site.time | date: "%A, %d %B %Y" }}</lastBuildDate>
@@ -14,10 +14,10 @@ layout: null
     {% for post in site.posts %}
     <item>
       <title>{{ post.title }}</title>
-      <link>http://frankjwu.com{{ post.url }}</link>
+      <link>https://frankjwu.com{{ post.url }}</link>
       <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
       <author>Frank Wu</author>
-      <guid>http://frankjwu.com{{ post.url }}</guid>
+      <guid>https://frankjwu.com{{ post.url }}</guid>
       <description>{{ post.content | xml_escape }}</description>
     </item>
     {% endfor %}
